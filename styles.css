@@ -1,0 +1,7 @@
+* {
+    border: 1px dotted lightskyblue;
+}
+#container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
