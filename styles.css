@@ -1,7 +1,24 @@
-* {
-    border: 1px dotted lightskyblue;
+body{ 
+    
+    background-color: #f9e6ff;
 }
-#container {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+h1 {
+    text-align:center;
+}
+ 
+.cell {
+    height:2em;
+    width:100%;
+    border: .10px solid lightgrey;
+}
+#top {
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color:#e6e6ff;
+    font-size:18px;
+    margin-top:10px;
+    padding:5px;
+    border-radius: 5px;
 }
